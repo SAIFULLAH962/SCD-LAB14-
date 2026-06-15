@@ -9,9 +9,9 @@ public class StudentResult {
         }
 
         for (int mark : marks) {
-            if (mark < 0 || mark > 100) {
+            if (mark < 0 || mark > 85) {
                 throw new IllegalArgumentException(
-                    "Marks must be between 0 and 100"
+                    "Marks must be between 0 and 85"
                 );
             }
         }
